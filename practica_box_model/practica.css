@@ -26,16 +26,20 @@ padding(relleno) : capa entre el contenido y el borde
     border-style: solid;
     border-color: black;
     border-width: 10px;
+    margin: 100px;
 
 }
 .box2{
     display: block;
     background-color: teal;
-    height: 400px;    ;
-    width: 100px;
+    height: 100px;    ;
+    width: 400px;
     padding: 30px 40px 10px  20px ;
     border: dotted darkgray 5px;
     box-sizing: border-box;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 20px;
 
     /* propiedades width = ancho  height = alto (aplica solo en la capa de contenido)*/
 }
@@ -54,8 +58,8 @@ padding(relleno) : capa entre el contenido y el borde
     background-color: mediumpurple;
     height: 70px;
     border-top: red 20px outset;
-    border-bottom: blueviolet 14px ridge;
-    border-left: 10px greenyellow double ;
+    border-bottom: blueviolet 14px ridge;   
+    border-left: 10px rgb(126, 146, 96) double ;
 
 
 }
@@ -68,13 +72,13 @@ padding(relleno) : capa entre el contenido y el borde
     border-top-color: blue;
     border-top-style: solid;
     border-top-width:  10px;
-    border-left-color: rgb(216, 83, 49);
+    border-left-color: rgb(24, 151, 41);
     border-left-style: solid;
     border-left-width:  10px;
-    border-right-color: rgb(208, 255, 0);
+    border-right-color: rgb(0, 255, 213);
     border-right-style: solid;
     border-right-width:  8px;
-    border-bottom-color: rgb(0, 255, 21);
+    border-bottom-color: rgb(223, 5, 186);
     border-bottom-style: solid;
     border-bottom-width: 10px;
 }
